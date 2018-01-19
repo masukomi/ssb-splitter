@@ -1,0 +1,13 @@
+name: ssb-splitter
+version: 0.1.0
+
+authors:
+  - masukomi <masukomi@masukomi.org>
+
+targets:
+  splitter:
+    main: src/ssb-splitter.cr
+
+crystal: 0.23.1
+
+license: MIT

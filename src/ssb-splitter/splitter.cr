@@ -1,7 +1,7 @@
 require "./split_file.cr"
 module SsbSplitter
   class Splitter
-    MAX_SIZE = 4000
+    MAX_SIZE = 3000
     def initialize()
       @file_path = ""
       @files = Array(SplitFile).new
